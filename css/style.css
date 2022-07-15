@@ -55,6 +55,7 @@ header button {
 /* footer */
 footer {
     background-color: #222222;
+    justify-content: space-between;
 }
 
 footer button {
@@ -70,4 +71,24 @@ footer p {
 
 #angle-up {
     font-size: 10px;
+}
+
+#bg-green {
+    color: #4bc800;
+}
+
+.exit-action {
+    width: 131.25px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.exit-action button {
+    background-color: #4a4a4a;
+    color: red;
+}
+
+
+.exit-action p {
+    padding: 12px 20px;
 }
